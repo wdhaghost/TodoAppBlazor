@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TodoApp.Client")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72f8f379df2840ec0dbf2114c5c28dba61e177a1")]
-[assembly: System.Reflection.AssemblyProductAttribute("TodoApp.Client")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TodoApp.Client")]
+[assembly: System.Reflection.AssemblyProductAttribute("WebApplication1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("WebApplication1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.

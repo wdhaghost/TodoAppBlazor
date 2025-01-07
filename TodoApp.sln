@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp", "TodoApp\TodoApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Client", "TodoApp\TodoApp.Client\TodoApp.Client.csproj", "{3988F377-E937-4668-A965-29D5AD6F9451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D0BDB4D4-8E45-43C6-9834-85F15886F4E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{4B22300F-05E3-4170-B9D9-2FCA0C7D8A09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{3988F377-E937-4668-A965-29D5AD6F9451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3988F377-E937-4668-A965-29D5AD6F9451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3988F377-E937-4668-A965-29D5AD6F9451}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0BDB4D4-8E45-43C6-9834-85F15886F4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0BDB4D4-8E45-43C6-9834-85F15886F4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0BDB4D4-8E45-43C6-9834-85F15886F4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0BDB4D4-8E45-43C6-9834-85F15886F4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B22300F-05E3-4170-B9D9-2FCA0C7D8A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B22300F-05E3-4170-B9D9-2FCA0C7D8A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B22300F-05E3-4170-B9D9-2FCA0C7D8A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B22300F-05E3-4170-B9D9-2FCA0C7D8A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
