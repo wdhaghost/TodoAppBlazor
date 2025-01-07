@@ -1,6 +1,8 @@
 ﻿@page "/weather"
 @attribute [StreamRendering]
-
+@using System.Net.Http
+@inject HttpClient Http
+@using System.Net.Http.Json
 <PageTitle>Weather</PageTitle>
 
 <h1>Weather</h1>
@@ -44,7 +46,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         // Simulate asynchronous loading to demonstrate streaming rendering
-       
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("http://localhost:5237/WeatherForecast");
     }
 
     private class WeatherForecast
