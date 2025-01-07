@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TodoApp.Client",
   "resources": {
-    "hash": "sha256-nNWslgib5VC6GWO54FlNKCsnXdTqzLW6V73jJAaemhY=",
+    "hash": "sha256-ZTZu5V/ufnM72R0Lgq395dqtwRtZLYqFPVvaXbSBjx0=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.cr4x3smrxi.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -214,10 +214,10 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "TodoApp.Client.wasm": "sha256-jVDLPfez3LaAkuJcewvQBTOWc5gVZjFl27/R1TA18JM="
+      "TodoApp.Client.wasm": "sha256-feWkTel5j+ciqJ+E5xJ9y3kRyDVsmtpvLbJIuw0cY/A="
     },
     "pdb": {
-      "TodoApp.Client.pdb": "sha256-HTzlx17/FY9eKj4SjN2LbMow1XX064LPlKwf+15bvn0="
+      "TodoApp.Client.pdb": "sha256-6Yv3u57/WoBvk1KXKjBZdjIQJJEIMk8/6r+GTwjOHpU="
     },
     "libraryInitializers": {
       "_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-htNuF2gbem5vP85zcYVih92CTJrIeZj4ghrN/AHd9VM="

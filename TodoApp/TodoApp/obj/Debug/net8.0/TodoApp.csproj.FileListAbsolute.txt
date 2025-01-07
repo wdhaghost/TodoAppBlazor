@@ -64,3 +64,4 @@
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp/bin/Debug/net8.0/Microsoft.FluentUI.AspNetCore.Components.dll
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp/obj/Debug/net8.0/jsmodules/jsmodules.build.manifest.json
+/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp/obj/Debug/net8.0/TodoApp.sourcelink.json

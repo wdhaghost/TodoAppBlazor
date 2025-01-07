@@ -1,7 +1,7 @@
 @page "/Todolist"
 @rendermode InteractiveAuto
 <h3>Todolist</h3>
-<div class="d-flex "><input placeholder="nouvelle tache" @bind="newName"/>   <button class="btn" @onclick="addTask"> Ajouter</button></div>
+<div class="d-flex "><input placeholder="nouvelle tache" @bind="newName"/>   <button class="btn" @onclick="AddTask"> Ajouter</button></div>
 <div class="row gx-5 h-100">
     <div class="col border h-auto">
         <p>A faire</p>
@@ -10,7 +10,7 @@
         @foreach (var todo in todos)
         {
             <div class="card">
-                <div><TodoItem updateChanged="update" Task="@todo"></TodoItem></div><button class="btn btn-danger" @onclick="@(() => { delete(@todo.id); })">Supprimer</button> </div>
+                <div><TodoItem updateChanged="Update" Task="@todo"></TodoItem></div><button class="btn btn-danger" @onclick="@(() => { Delete(@todo.id); })">Supprimer</button> </div>
         }
         </div>
     </div>
@@ -32,19 +32,19 @@
 
     public int lastId = 1;
     
-    public void addTask()
+    public void AddTask()
     {
         todos.Add(new TodoTask(){id=lastId, date = DateTime.Now,name = newName,status = "A faire"});
         lastId++;
         newName = string.Empty;
     }
     
-    public void update(TodoTask itemUpdated)
+    public void Update(TodoTask itemUpdated)
     {
         
     }
 
-    public void delete(int deleteTaskId)
+    public void Delete(int deleteTaskId)
     {
         todos.Remove(todos.FirstOrDefault(x=>x.id==deleteTaskId));
     }

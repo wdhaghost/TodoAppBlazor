@@ -1057,3 +1057,4 @@
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/obj/Debug/net8.0/compressed/hjrls6py79.gz
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/obj/Debug/net8.0/compressed/w1fxlehipj.gz
 /Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/obj/Debug/net8.0/jsmodules/jsmodules.build.manifest.json
+/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/obj/Debug/net8.0/TodoApp.Client.sourcelink.json
