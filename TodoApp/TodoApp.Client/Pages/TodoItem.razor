@@ -1,0 +1,41 @@
+    @if (isEditing)
+    {
+        <p>@Task.id</p>
+        <input @bind="@Task.name"/>  
+        <select @bind="@Task.status">
+                <option value="A faire" > A Faire</option>
+                <option value="En cours"> En cours</option>
+                <option value="Terminé"> Terminé</option>
+                </select>
+        
+        
+            <button type="button" class="btn btn-primary" @onclick="edit" > Modifier</button>
+            <button class="btn btn-danger" @onclick=@(() => { isEditing = false;})> Annuler</button>
+        
+    }
+    else
+    {
+        <p>@Task.id</p>
+        <p @onclick="edit">@Task.name</p>
+        <p>@Task.status </p>
+        <p>@Task.date.Date</p>
+    }
+    
+    
+
+@code {
+    [Parameter] public TodoTask Task { get; set; }
+    [Parameter] public EventCallback<TodoTask> updateChanged { get; set; } 
+    public bool isEditing = false;
+    
+    private async Task edit()
+    {
+        if (isEditing)
+        {
+            await updateChanged.InvokeAsync(Task);
+        }
+        isEditing = !isEditing;
+    
+    }
+    
+}

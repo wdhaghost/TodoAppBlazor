@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/obj/Debug/net8.0/compressed/yryfgvxq1o.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/wwwroot/appsettings.Development.json",
+      "PackagePath": "staticwebassets/appsettings.Development.json"
+    },
+    {
+      "Id": "/Users/wdha/RiderProjects/TodoApp/TodoApp/TodoApp.Client/wwwroot/appsettings.json",
+      "PackagePath": "staticwebassets/appsettings.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TodoApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TodoApp.Client.props",
+      "PackagePath": "build\\TodoApp.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TodoApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\TodoApp.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TodoApp.Client.props",
+      "PackagePath": "buildTransitive\\TodoApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
